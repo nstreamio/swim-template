@@ -1,0 +1,6 @@
+example: @fabric {
+    @plane(class: "example.ExamplePlane")
+}
+@web(port: 9001) {
+    space: "example"
+}

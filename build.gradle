@@ -9,5 +9,5 @@ repositories {
 }
 
 dependencies {
-    implementation group: 'org.swimos', name: 'swim-server', version: '3.11.0'
+    implementation group: 'org.swimos', name: 'swim-server', version: '4.0.1'
 }

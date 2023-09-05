@@ -8,6 +8,7 @@ public class ExamplePlane extends AbstractPlane {
 
     public static void main(String[] args) {
         final Kernel kernel = ServerLoader.loadServer();
+        System.out.println("Starting server...");
         kernel.start();
         System.out.println("Running server...");
         kernel.run();

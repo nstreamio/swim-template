@@ -4,7 +4,7 @@ import swim.api.plane.AbstractPlane;
 import swim.kernel.Kernel;
 import swim.server.ServerLoader;
 
-public class ExamplePlane extends AbstractPlane {
+public class MainPlane extends AbstractPlane {
 
     public static void main(String[] args) {
         final Kernel kernel = ServerLoader.loadServer();

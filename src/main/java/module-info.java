@@ -1,5 +1,5 @@
-open module example {
-    requires swim.server;
+open module {{self.name}} {
+        requires swim.server;
 
-    exports example;
+        exports {{self.name}};
 }

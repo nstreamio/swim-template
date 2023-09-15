@@ -1,6 +1,6 @@
-example: @fabric {
-    @plane(class: "example.MainPlane")
+{{self.name}}: @fabric {
+    @plane(class: "{{self.name}}.MainPlane")
 }
-@web(port: 9001) {
-    space: "example"
+@web(port: {{self.port}}) {
+    space: "{{self.name}}"
 }

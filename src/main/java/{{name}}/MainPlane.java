@@ -1,4 +1,4 @@
-package example;
+package {{name}};
 
 import swim.api.plane.AbstractPlane;
 import swim.kernel.Kernel;

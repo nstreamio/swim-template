@@ -1,5 +1,5 @@
-open module {{self.name}} {
+open module {{name}} {
         requires swim.server;
 
-        exports {{self.name}};
+        exports {{name}};
 }
